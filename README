@@ -1,0 +1,1 @@
+ansible-playbook -i hosts  -u lucas --private-key=id_rsa.pem  playbook.yml -e mysql_root_password=admin
